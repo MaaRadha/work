@@ -4,9 +4,9 @@ import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div>
+    <div className="bg-[#EBEBEB]">
       <Navbar />
-      <main>
+      <main className="my-6 container mx-auto max-w-7xl font-redhat">
         <Outlet />
       </main>
       <Footer />

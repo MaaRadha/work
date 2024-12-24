@@ -1,13 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --bg-image: url("./public/bg.jpg");
-}
-
-body {
-  background-image: var(--bg-image);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
