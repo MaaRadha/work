@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import pic from "../../assets/avatar.jpg";
-import logo from "../../assets/logo.png";
+
 // import { useState } from "react";
 const navItems = [
   { id: 1, text: "Home", path: "/" },
