@@ -6,7 +6,7 @@ const HomeSecion2 = () => {
     <>
       <div className="text-gray-600 grid lg:grid-cols-2 gap-4 ">
         <div className="text-gray-600 py-10 ">
-          <div className="flex items-end gap-2 px-8">
+          <div className="flex items-end gap-2 px-3 py-4">
             <h2 className="text-3xl py-7 font-bold">utdanning</h2>
             <motion.span
               initial={{ opacity: 0, scale: 0.5 }}
@@ -59,7 +59,7 @@ const HomeSecion2 = () => {
 
         {/* -----experience */}
         <div className="text-gray-600 py-10 ">
-          <div className="flex items-end gap-2 px-8">
+          <div className="flex items-end gap-2 px-3 py-4">
             <h2 className="text-3xl py-7 font-bold">arbeidserfaring </h2>
             <motion.span
               initial={{ opacity: 0, scale: 0.5 }}
@@ -102,35 +102,31 @@ const HomeSecion2 = () => {
               </li>
               <li className="py-2 text-gray-600">
                 Feb. 2021 - July 2021
-                <span className="px-2 font-bold text-xl">
-                  Building Information Modelling- BIM technician, Enerhaugen
-                  Arkitektkontor AS
+                <span className="px-3 font-bold text-xl text-center">
+                  BIM technician, Enerhaugen Arkitektkontor AS
                 </span>
               </li>
               <li className="py-2 text-gray-600">
                 Okt. 2018 - Sep. 2020
-                <span className="px-2 font-bold text-xl">
-                  Technical draftsman, Spinn Arkitekt AS
+                <span className="px-3 font-bold text-xl">
+                  Teknisk tegner, Spinn Arkitekt AS
                 </span>
               </li>
               <li className="py-2 text-gray-600">
                 Mai. 2018 - Aug. 2018
-                <span className="px-2 font-bold text-xl">
+                <span className="px-3 font-bold text-xl">
                   3D-artist / 3D-Designer, Scenario Interior Arkitekt AS
                 </span>
               </li>
               <li className="py-2 text-gray-600">
                 Sep. 2017 - Feb. 2018
-                <span className="px-2 font-bold text-xl">
+                <span className="px-3 font-bold text-xl">
                   Technical draftsman, Hille Melbye Arkitekter AS
                 </span>
               </li>
             </ul>
           </motion.div>
         </div>
-      </div>
-      <div className="text-gray-600 py-10 ont-text">
-        <p>Jeg er en utdannet front-end utvikler med 3 års erfaring.</p>
       </div>
     </>
   );
