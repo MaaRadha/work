@@ -11,7 +11,7 @@ const navItems = [
 const Navbar = () => {
   return (
     <header>
-      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-gray-700 rounded-lg">
+      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-gray-700 rounded-lg  border-b-4">
         <ul className="flex space-x-6 items-center">
           {navItems.map((nav) => (
             <li key={nav.id}>
