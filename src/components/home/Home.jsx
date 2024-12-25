@@ -56,7 +56,7 @@ const Home = () => {
             </motion.p>
           </div>
         </div>
-        <div className="flex items-center justify-center">
+        <div className=" sm:block md:flex  lg:flex items-center lg:justify-center ">
           <div className=" py-7 px-3 w-full max-w-[260px] flex items-center ">
             <a
               href="mailto:rohit_designer@outlook.com"
@@ -85,7 +85,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="">
         <HomeSection2 />
       </section>
     </>
