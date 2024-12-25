@@ -129,6 +129,9 @@ const HomeSecion2 = () => {
           </motion.div>
         </div>
       </div>
+      <div className="text-gray-600 py-10 ont-text">
+        <p>Jeg er en utdannet front-end utvikler med 3 års erfaring.</p>
+      </div>
     </>
   );
 };
