@@ -4,9 +4,10 @@ import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className="bg-[#EBEBEB]">
+    <div className="bg-[#EBEBEB] flex flex-col min-h-screen">
       <Navbar />
-      <main className="my-6 container mx-auto max-w-7xl font-redhat">
+
+      <main className="flex-grow container mx-auto max-w-7xl my-6 font-redhat">
         <Outlet />
       </main>
       <Footer />
