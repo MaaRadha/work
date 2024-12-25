@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import pic from "../../assets/avatar.jpg";
+import { Tooltip } from "react-tooltip";
 
 // import { useState } from "react";
 const navItems = [
@@ -27,12 +28,15 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="flex items-center space-x-4">
+        <div id="not-clickable" className="flex items-center space-x-4">
           <img
+            id="my-tooltip"
             src={pic}
             alt="User Avatar"
             className="h-12 w-12 rounded-full border-2 border-blue-500"
+            data-tooltip-id="my-tooltip"
           />
+          <Tooltip id="my-tooltip" place="top" content="I'm Rohit!" />
         </div>
       </nav>
     </header>
