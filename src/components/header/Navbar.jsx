@@ -11,15 +11,15 @@ const navItems = [
 const Navbar = () => {
   return (
     <header>
-      <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between text-gray-700 rounded-lg">
+      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-gray-700 rounded-lg">
         <ul className="flex space-x-6 items-center">
           {navItems.map((nav) => (
             <li key={nav.id}>
               <NavLink
                 to={nav.path}
                 className={({ isActive }) =>
-                  ` text-base font-bold transition-colors duration-200 ${
-                    isActive ? "text-blue-500" : "text-gray-700"
+                  ` text-lg font-bold transition-colors duration-200 ${
+                    isActive ? "text-violet-500" : "text-gray-700"
                   } hover:text-200`
                 }
               >
