@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <>
       <section>
-        <div className="text-gray-600 ">
-          <div className=" max-w-7xl p-3  ">
+        <div className="text-gray-600">
+          <div className=" max-w-7xl p-3">
             <div className="flex items-end gap-2 px-3">
               <h1 className="text-3xl py-7 font-bold">Rohit Kumar Amdahl</h1>
               <motion.span
@@ -45,7 +45,7 @@ const Home = () => {
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{
-                duration: 0.8,
+                duration: 1.0,
                 delay: 1.2,
                 ease: [0, 0.71, 0.2, 1.01],
               }}
@@ -58,7 +58,16 @@ const Home = () => {
             </motion.p>
           </div>
         </div>
-        <div className=" sm:block md:flex  lg:flex items-center lg:justify-center ">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 1.6,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+          className=" sm:block md:flex  lg:flex items-center lg:justify-center "
+        >
           <div className=" py-7 px-3 w-full max-w-[260px] flex items-center ">
             <a
               href="mailto:rohit_designer@outlook.com"
@@ -85,53 +94,56 @@ const Home = () => {
               </span>
             </a>
           </div>
-        </div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{
-            duration: 0.8,
-            delay: 1.2,
-            ease: [0, 0.71, 0.2, 1.01],
-          }}
-        >
-          <div className="flex flex-col items-center ">
-            <img
-              className="p-2 md:p-6 lg:p-10 "
-              src={collage}
-              alt=" a collage of different pictures of my work including design and development process"
-            />
-            <img
-              className="p-2 md:p-6 lg:p-10 bg-white rounded-full"
-              src={figma}
-              alt="figma logo"
-            />
-          </div>
-
-          <p className="py-7 font-text  text-lg px-3">
-            Jeg har studert design, og det er en stor fordel for meg å bruke min
-            kompetanse når jeg jobber med webdesign. Jeg er spesielt interessert
-            i UX- og UI-design. Min prosess for å designe noe går gjennom
-            grundig research, utvikling av stilguide og wireframes, og deretter
-            videre til high-fidelity wireframes og layouter. I denne kollasjen
-            viser jeg også min kompetanse i Figma. Jeg elsker å løse problemer
-            med kreativitet og finne brukervennlige og estetiske løsninger.
-          </p>
-          <div className=" py-3 md:py-4 lg:py-9 font-text">
-            <ul className="py-7 font-text  text-lg px-3 capitalize">
-              <li className="font-bold text-2xl font-redhat text-gray-600">
-                Figma designs by me{" "}
-              </li>
-              <li>wireframes</li>
-              <li>high fidelity wireframes</li>
-              <li>low fidelity wireframes</li>
-              <li>Style guide</li>
-              <li>Theme board</li>
-            </ul>
-          </div>
         </motion.div>
+        <section className="px-3">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 1.2,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+          >
+            <div className="flex flex-col items-center ">
+              <img
+                className="p-2 md:p-6 lg:p-10"
+                src={collage}
+                alt=" a collage of different pictures of my work including design and development process"
+              />
+              <img
+                className="p-2 md:p-6 lg:p-10 bg-white rounded-full"
+                src={figma}
+                alt="figma logo"
+              />
+            </div>
+
+            <p className="py-7 font-text  text-lg px-3">
+              Jeg har studert design, og det er en stor fordel for meg å bruke
+              min kompetanse når jeg jobber med webdesign. Jeg er spesielt
+              interessert i UX- og UI-design. Min prosess for å designe noe går
+              gjennom grundig research, utvikling av stilguide og wireframes, og
+              deretter videre til high-fidelity wireframes og layouter. I denne
+              kollasjen viser jeg også min kompetanse i Figma. Jeg elsker å løse
+              problemer med kreativitet og finne brukervennlige og estetiske
+              løsninger.
+            </p>
+            <div className=" py-3 md:py-4 lg:py-9 font-text">
+              <ul className="py-7 font-text  text-lg px-3 capitalize">
+                <li className="font-bold text-3xl font-redhat text-gray-600">
+                  Figma designs by me{" "}
+                </li>
+                <li>wireframes</li>
+                <li>high fidelity wireframes</li>
+                <li>low fidelity wireframes</li>
+                <li>Style guide</li>
+                <li>Theme board</li>
+              </ul>
+            </div>
+          </motion.div>
+        </section>
       </section>
-      <section>
+      <section className="px-3">
         <HomeSection2 />
       </section>
     </>

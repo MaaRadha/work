@@ -4,10 +4,10 @@ import arrow from "../../assets/arrowdown.png";
 const HomeSecion2 = () => {
   return (
     <>
-      <div className="text-gray-600 grid lg:grid-cols-2 gap-4 ">
-        <div className="text-gray-600 py-10 ">
+      <div className="text-gray-600 grid lg:grid-cols-2 gap-2 ">
+        <div className="text-gray-600 py-5 md:py-7 lg:py-10">
           <div className="flex items-end gap-2 px-3 py-4">
-            <h2 className="text-3xl py-7 font-bold">utdanning</h2>
+            <h2 className="text-3xl py-7 font-bold ">utdanning</h2>
             <motion.span
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -34,21 +34,21 @@ const HomeSecion2 = () => {
             }}
             className="font-text"
           >
-            <ul className="px-8">
+            <ul className="px-4">
               <li className="py-2 text-gray-600">
-                Oct 2021 - Oct 2023
+                Oct. 2021 - Oct 2023
                 <span className="px-3 font-bold text-xl">
                   Frontend-utvikling
                 </span>
               </li>
               <li className="py-2 text-gray-600">
-                Juli 2009 - Aug 2013
+                Juli. 2009 - Aug 2013
                 <span className="px-3 font-bold text-xl">
                   Bachelor in Accessories design, Produktdesign{" "}
                 </span>
               </li>
               <li className="py-2 text-gray-600">
-                Aug 2024 - Nov 2024
+                Aug. 2024 - Nov 2024
                 <span className="px-2 font-bold text-xl">
                   Backend-utvikling med .NET
                 </span>
@@ -58,7 +58,7 @@ const HomeSecion2 = () => {
         </div>
 
         {/* -----experience */}
-        <div className="text-gray-600 py-10 ">
+        <div className="text-gray-600 py-5 md:py-7 lg:py-10">
           <div className="flex items-end gap-2 px-3 py-4">
             <h2 className="text-3xl py-7 font-bold">arbeidserfaring </h2>
             <motion.span
@@ -87,9 +87,9 @@ const HomeSecion2 = () => {
             }}
             className="font-text"
           >
-            <ul className="px-8">
+            <ul className="px-4">
               <li className="py-2 text-gray-600">
-                Mai. 2024 - Aug. 2024
+                Mai. 2024 - Aug 2024
                 <span className="px-3 font-bold text-xl">
                   Designer | Frontend utvikler, Clean Sea Solutions AS
                 </span>
@@ -107,19 +107,19 @@ const HomeSecion2 = () => {
                 </span>
               </li>
               <li className="py-2 text-gray-600">
-                Okt. 2018 - Sep. 2020
+                Okt. 2018 - Sep 2020
                 <span className="px-3 font-bold text-xl">
                   Teknisk tegner, Spinn Arkitekt AS
                 </span>
               </li>
               <li className="py-2 text-gray-600">
-                Mai. 2018 - Aug. 2018
+                Mai. 2018 - Aug 2018
                 <span className="px-3 font-bold text-xl">
                   3D-artist / 3D-Designer, Scenario Interior Arkitekt AS
                 </span>
               </li>
               <li className="py-2 text-gray-600">
-                Sep. 2017 - Feb. 2018
+                Sep. 2017 - Feb 2018
                 <span className="px-3 font-bold text-xl">
                   Technical draftsman, Hille Melbye Arkitekter AS
                 </span>
