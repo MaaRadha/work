@@ -3,6 +3,8 @@ import arrow from "../../assets/arrowdown.png";
 import { motion } from "motion/react";
 import HomeSection2 from "./HomeSection2";
 import { RiLinkedinFill } from "react-icons/ri";
+import collage from "../../assets/colmin.jpg";
+import figma from "../../assets/icons/figma.png";
 const Home = () => {
   return (
     <>
@@ -84,8 +86,52 @@ const Home = () => {
             </a>
           </div>
         </div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 1.2,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
+          <div className="flex flex-col items-center ">
+            <img
+              className="p-2 md:p-6 lg:p-10 "
+              src={collage}
+              alt=" a collage of different pictures of my work including design and development process"
+            />
+            <img
+              className="p-2 md:p-6 lg:p-10 bg-white rounded-full"
+              src={figma}
+              alt="figma logo"
+            />
+          </div>
+
+          <p className="py-7 font-text  text-lg px-3">
+            Jeg har studert design, og det er en stor fordel for meg å bruke min
+            kompetanse når jeg jobber med webdesign. Jeg er spesielt interessert
+            i UX- og UI-design. Min prosess for å designe noe går gjennom
+            grundig research, utvikling av stilguide og wireframes, og deretter
+            videre til high-fidelity wireframes og layouter. I denne kollasjen
+            viser jeg også min kompetanse i Figma. Jeg elsker å løse problemer
+            med kreativitet og finne brukervennlige og estetiske løsninger.
+          </p>
+          <div className=" py-3 md:py-4 lg:py-9 font-text">
+            <ul className="py-7 font-text  text-lg px-3">
+              <li className="font-bold text-2xl font-redhat text-gray-600">
+                Figma designs by me{" "}
+              </li>
+              <li>wireframes</li>
+              <li>high fidelity wireframes</li>
+              <li>low fidelity wireframes</li>
+              <li>Style guide</li>
+              <li>Theme board</li>
+            </ul>
+          </div>
+        </motion.div>
       </section>
-      <section className="">
+      <section>
         <HomeSection2 />
       </section>
     </>
