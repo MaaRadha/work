@@ -1,5 +1,12 @@
+import Project from "../components/work/Project";
+import IconsList from "../components/iconsComponent/IconsList";
 const Projects = () => {
-  return <div>Projects</div>;
+  return (
+    <section>
+      <Project />
+      <IconsList />
+    </section>
+  );
 };
 
 export default Projects;
