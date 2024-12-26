@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
-import arrow from "../../assets/arrowdown.png";
-const HomeSecion2 = () => {
+import arrow from "../../assets/icons/arrow.png";
+const HomeSecion = () => {
   return (
     <>
       <div className="text-gray-600 grid lg:grid-cols-2 gap-2 ">
@@ -132,4 +132,4 @@ const HomeSecion2 = () => {
   );
 };
 
-export default HomeSecion2;
+export default HomeSecion;

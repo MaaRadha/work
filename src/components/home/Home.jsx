@@ -1,7 +1,7 @@
 import { FiSend } from "react-icons/fi";
-import arrow from "../../assets/arrowdown.png";
+import arrow from "../../assets/icons/arrow.png";
 import { motion } from "motion/react";
-import HomeSection2 from "./HomeSection2";
+import HomeSection2 from "./HomeSection";
 import { RiLinkedinFill } from "react-icons/ri";
 import collage from "../../assets/colmin.jpg";
 import figma from "../../assets/icons/figma.png";
@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <section>
         <div className="text-gray-600">
-          <div className=" max-w-7xl p-3">
+          <div className="max-w-7xl p-3">
             <div className="flex items-end gap-2 px-3">
               <h1 className="text-3xl py-7 font-bold">Rohit Kumar Amdahl</h1>
               <motion.span
