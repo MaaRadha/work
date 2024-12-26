@@ -1,6 +1,6 @@
-import tegn from "../assets/projectImg/tegn.png";
-import barnehage from "../assets/projectImg/barnehage.png";
-import holiday from "../assets/projectImg/holiday.png";
+import tegn from "../assets/projectPics/tegning.png";
+import barnehage from "../assets/projectPics/barnehage.png";
+import holiday from "../assets/projectPics/holiday.png";
 
 export const data = [
   {

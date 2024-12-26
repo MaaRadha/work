@@ -1,9 +1,10 @@
 import { motion } from "motion/react";
 import arrow from "../../assets/icons/arrow.png";
+
 const Project = () => {
   return (
     <div className="text-3xl md:text-7xl lg:text-8xl w-full text-gray-600 p-3">
-      <div className=" max-w-7xl p-3">
+      <div className=" max-w-7xl ">
         <div className="flex items-end gap-2 px-3">
           <h1 className="text-3xl py-7 font-bold">behersker disse</h1>
           <motion.span
@@ -18,8 +19,8 @@ const Project = () => {
             <img src={arrow} alt="arrow points down" />
           </motion.span>
         </div>
-        <span></span>
       </div>
+      {/* projects */}
     </div>
   );
 };
