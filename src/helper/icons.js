@@ -11,6 +11,8 @@ import wordpress from "../assets/icons/wordpress.png";
 import html from "../assets/icons/html.png";
 import css from "../assets/icons/css.png";
 import sass from "../assets/icons/sass.png";
+import sql from "../assets/icons/sql.png";
+import vite from "../assets/icons/vite.png";
 
 export const logoIcons = [
   {
@@ -50,31 +52,41 @@ export const logoIcons = [
   },
   {
     id: 8,
+    title: sql,
+    alt: "sql logo",
+  },
+  {
+    id: 9,
+    title: vite,
+    alt: "vite logo",
+  },
+  {
+    id: 10,
     title: css,
     alt: "css logo",
   },
   {
-    id: 9,
+    id: 11,
     title: sass,
     alt: "sass logo",
   },
   {
-    id: 10,
+    id: 12,
     title: git,
     alt: "git logo",
   },
   {
-    id: 11,
+    id: 13,
     title: bootstrap,
     alt: "bootstrap logo",
   },
   {
-    id: 12,
+    id: 14,
     title: figma,
     alt: "figma logo",
   },
   {
-    id: 13,
+    id: 15,
     title: wordpress,
     alt: "wordpress logo",
   },
