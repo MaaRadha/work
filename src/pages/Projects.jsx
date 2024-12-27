@@ -1,12 +1,14 @@
 import Project from "../components/work/Project";
 import IconsList from "../components/iconsComponent/IconsList";
 import ProjectList from "../components/work/ProjectList";
+import DatabaseProject from "../components/work/DatabaseProject";
 const Projects = () => {
   return (
     <section>
       <Project />
-      <IconsList />
       <ProjectList />
+      <IconsList />
+      <DatabaseProject />
     </section>
   );
 };
