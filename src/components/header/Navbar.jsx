@@ -4,8 +4,8 @@ import { Tooltip } from "react-tooltip";
 
 // import { useState } from "react";
 const navItems = [
-  { id: 1, text: "Home", path: "/" },
-  { id: 2, text: "Work", path: "/work" },
+  { id: 1, text: "Hjem", path: "/" },
+  { id: 2, text: "Prosjekter", path: "/work" },
 ];
 
 const Navbar = () => {

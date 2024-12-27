@@ -128,18 +128,13 @@ const Home = () => {
               problemer med kreativitet og finne brukervennlige og estetiske
               løsninger.
             </p>
-            <div className=" py-3 md:py-4 lg:py-9 font-text">
-              <ul className="py-7 font-text  text-lg px-3 capitalize">
-                <li className="font-bold text-3xl font-redhat text-gray-600">
-                  Figma designs by me{" "}
-                </li>
-                <li>wireframes</li>
-                <li>high fidelity wireframes</li>
-                <li>low fidelity wireframes</li>
-                <li>Style guide</li>
-                <li>Theme board</li>
-              </ul>
-            </div>
+            <ul className="py-7 font-text  text-lg px-3 capitalize">
+              <li>wireframes</li>
+              <li>high fidelity wireframes</li>
+              <li>low fidelity wireframes</li>
+              <li>Style guide</li>
+              <li>Theme board</li>
+            </ul>
           </motion.div>
         </section>
       </section>
