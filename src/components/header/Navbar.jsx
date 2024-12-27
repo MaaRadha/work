@@ -29,13 +29,16 @@ const Navbar = () => {
           ))}
         </ul>
         <div id="not-clickable" className="flex items-center space-x-4">
-          <img
-            id="my-tooltip"
-            src={pic}
-            alt="User Avatar"
-            className="h-12 w-12 rounded-full border-2 border-blue-500"
-            data-tooltip-id="my-tooltip"
-          />
+          <NavLink to="/">
+            <img
+              id="my-tooltip"
+              src={pic}
+              alt="User Avatar"
+              className="h-12 w-12 rounded-full border-2 border-blue-500"
+              data-tooltip-id="my-tooltip"
+            />
+          </NavLink>
+
           <Tooltip id="my-tooltip" place="top" content="I'm Rohit!" />
         </div>
       </nav>
