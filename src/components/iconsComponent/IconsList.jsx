@@ -13,8 +13,8 @@ function IconsList() {
   };
 
   return (
-    <div className="w-full container max-w-2xl mx-auto p-6 md:p-8 lg:p-10">
-      <ul className="grid grid-cols-5 gap-4 items-center">
+    <div className="w-full container max-w-7xl mx-auto items-center p-6 md:p-8 lg:p-10">
+      <ul className="flex flex-wrap lg:justify-center items-center gap-4">
         {logoIcons.map((item, index) => (
           <motion.li
             initial={{ opacity: 0, scale: 0.5 }}
@@ -23,9 +23,9 @@ function IconsList() {
             key={item.id}
             variants={popVariant}
             whileHover={{ scale: 1.2 }}
-            transition={{ delay: index * 0.1 }}
+            transition={{ delay: index * 0.5 }}
           >
-            <img className="" src={item.title} alt={item.alt} />
+            <img src={item.title} alt={item.alt} />
           </motion.li>
         ))}
       </ul>
