@@ -34,7 +34,7 @@ const Home = () => {
                 delay: 1.0,
                 ease: [0, 0.71, 0.2, 1.01],
               }}
-              className=" text-3xl md:text-7xl lg:text-8xl w-full"
+              className=" text-3xl md:text-7xl lg:text-7xl w-full"
             >
               <ul className="p-3">
                 <li>Kreativ Designer og Webutvikler</li>
