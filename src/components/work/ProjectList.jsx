@@ -18,13 +18,7 @@ const ProjectList = () => {
         <h2 className="text-gray-600 text-3xl md:text-7xl lg:text-7xl w-full px-3">
           Disse prosjektene har utfordret meg og hjulpet meg å vokse
         </h2>
-        <div className="text-gray-600 font-text">
-          <p className="py-7 font-medium text-lg px-3">
-            Dette er mine frontend-prosjekter som viser mine ferdigheter innen
-            frontend-utvikling. For mer informasjon om prosjektene, vennligst
-            besøk min GitHub.
-          </p>
-        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 font-text text-gray-600 py-7 px-3">
           {data.map((project) => (
             <div
