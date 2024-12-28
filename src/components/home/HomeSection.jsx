@@ -7,7 +7,7 @@ const HomeSecion = () => {
       <div className="text-gray-600 grid lg:grid-cols-2 gap-2 ">
         <div className="text-gray-600 py-5 md:py-7 lg:py-10">
           <div className="flex items-end gap-2 px-3 py-4">
-            <h2 className="text-3xl py-7 font-bold ">utdanning</h2>
+            <h2 className="text-3xl py-7 font-bold text-zinc-800">utdanning</h2>
             <motion.span
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -60,7 +60,9 @@ const HomeSecion = () => {
         {/* -----experience */}
         <div className="text-gray-600 py-5 md:py-7 lg:py-10">
           <div className="flex items-end gap-2 px-3 py-4">
-            <h2 className="text-3xl py-7 font-bold">arbeidserfaring </h2>
+            <h2 className="text-3xl py-7 font-bold text-zinc-800">
+              arbeidserfaring{" "}
+            </h2>
             <motion.span
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}

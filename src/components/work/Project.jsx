@@ -6,7 +6,9 @@ const Project = () => {
     <div className="text-3xl md:text-7xl lg:text-8xl w-full text-gray-600 p-3">
       <div className=" max-w-7xl ">
         <div className="flex items-end gap-2 px-3">
-          <h1 className="text-3xl py-7 font-bold">Resultater i Fokus</h1>
+          <h1 className="text-3xl py-7 font-bold text-zinc-800">
+            Resultater i Fokus
+          </h1>
           <motion.span
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
