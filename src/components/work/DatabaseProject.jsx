@@ -7,8 +7,11 @@ import { div } from "motion/react-client";
 const DatabaseProject = () => {
   return (
     <>
-      <div>
-        <p></p>
+      <div className=" py-10 px-3 text-gray-600 font-text">
+        <p className="py-7 font-medium text-lg px-3">
+          Dette er mitt backend SQL-prosjekt hvor jeg opprettet og administrerte
+          en SQL-database ved hjelp av Entity Framework.
+        </p>
       </div>
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
