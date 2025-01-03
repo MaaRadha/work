@@ -36,6 +36,12 @@ const HomeSecion = () => {
           >
             <ul className="px-4">
               <li className="py-2 text-gray-600">
+                Aug. 2024 - Nov 2024
+                <span className="px-2 font-bold text-xl">
+                  Backend-utvikling med .NET
+                </span>
+              </li>
+              <li className="py-2 text-gray-600">
                 Oct. 2021 - Oct 2023
                 <span className="px-3 font-bold text-xl">
                   Frontend-utvikling
@@ -45,12 +51,6 @@ const HomeSecion = () => {
                 Juli. 2009 - Aug 2013
                 <span className="px-3 font-bold text-xl">
                   Bachelor in Accessories design, Produktdesign{" "}
-                </span>
-              </li>
-              <li className="py-2 text-gray-600">
-                Aug. 2024 - Nov 2024
-                <span className="px-2 font-bold text-xl">
-                  Backend-utvikling med .NET
                 </span>
               </li>
             </ul>
