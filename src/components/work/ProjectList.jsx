@@ -1,7 +1,8 @@
 import { data } from "../../helper/projectsList";
 import { motion } from "motion/react";
 import { FaGithub } from "react-icons/fa6";
-import sql from "../../assets/projectPics/sqlDatabase.png";
+// import sql from "../../assets/projectPics/sqlDatabase.png";
+import sideproject from "../../assets/projectPics/sideProject.png";
 const ProjectList = () => {
   return (
     <>
@@ -84,6 +85,32 @@ const ProjectList = () => {
             </a>
           </div>
         </motion.div>
+        <div className="py-8">
+          <div>
+            <h2 className="text-gray-600 text-3xl md:text-7xl lg:text-7xl w-full px-3 lg:py-10 md:py-8 py-6">
+              Sideprosjektet er i utviklingsfasen
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center lg:grid-cols-2 gap-6 font-text text-gray-600 py-7 px-3  border-4 m-4 p-4 rounded-2xl shadow-xl">
+            <div className="max-w-2xl flex justify-center items-center">
+              <p className="py-7  font-text font-medium text-lg px-3">
+                Vi jobber med et sideprosjekt som har som mål å gjøre
+                jobbsøknadsprosessen enklere og mer oversiktlig for brukerne.
+                Prosjektet er i utviklingsfasen, og vi benytter moderne
+                teknologier som React, TailwindCSS og JavaScript for frontend,
+                samt C# og ASP.NET Core Web API for backend. Tjenestene kjøres
+                på Azure for en skalerbar og sikker løsning. Planlegging og
+                design gjennomføres i Figma og Notion, og kodebasen
+                administreres privat på GitHub. Vi legger stor innsats i
+                prosjektet og samarbeider tett for å levere en funksjonell og
+                brukervennlig applikasjon.
+              </p>
+            </div>
+            <div className=" w-full container mx-auto  max-w-xs">
+              <img src={sideproject} alt="sideproject" className="" />
+            </div>
+          </div>
+        </div>
       </motion.div>
     </>
   );
