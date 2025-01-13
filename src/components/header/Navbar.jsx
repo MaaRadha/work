@@ -5,7 +5,8 @@ import { Tooltip } from "react-tooltip";
 // import { useState } from "react";
 const navItems = [
   { id: 1, text: "Hjem", path: "/" },
-  { id: 2, text: "Prosjekter", path: "/work" },
+  { id: 2, text: "Prosjekter", path: "/Prosjekter" },
+  { id: 3, text: "Gjester", path: "/Gjester" },
 ];
 
 const Navbar = () => {
