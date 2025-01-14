@@ -29,7 +29,10 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div id="not-clickable" className="flex items-center space-x-4">
+        <div
+          id="not-clickable"
+          className=" hidden md:inline-block lg:flex items-center space-x-4"
+        >
           <NavLink to="/">
             <img
               id="my-tooltip"
