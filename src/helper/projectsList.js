@@ -25,7 +25,7 @@ export const data = [
     title: "Holidaze, avsluttende eksamensprosjekt",
     description: " ",
     imgUrl: holiday,
-    liveDemo: "https://creative-zuccutto-14498e.netlify.app",
+    liveDemo: "https://resilient-sawine-3b694a.netlify.app/",
     githubLink: "https://github.com/RohitAmdahl/holidaze-main",
   },
   {
