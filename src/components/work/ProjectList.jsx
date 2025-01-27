@@ -71,19 +71,6 @@ const ProjectList = () => {
             av og som viser mine ferdigheter. Flere prosjekter kan finnes på min
             GitHub-profil.
           </p>
-          <div className=" py-7 px-3 w-full max-w-[260px] flex items-center ">
-            <a
-              href="https://github.com/RohitAmdahl?tab=repositories"
-              className="px-4 py-2 rounded-full flex items-center gap-2  
-        shadow-[-5px_-5px_10px_rgba(255,_255,_255,_0.8),_5px_5px_10px_rgba(0,_0,_0,_0.25)]
-        transition-all hover:shadow-[-1px_-1px_5px_rgba(255,_255,_255,_0.6),_1px_1px_5px_rgba(0,_0,_0,_0.3),inset_-2px_-2px_5px_rgba(255,_255,_255,_1),inset_2px_2px_4px_rgba(0,_0,_0,_0.3)] hover:text-violet-500 hover:ring hover:ring-violet-500 text-center text-zinc-800"
-            >
-              <FaGithub size={20} color="blue" />
-              <span className="font-text font-bold text-lg text-center text-zinc-800">
-                Besøk min Github
-              </span>
-            </a>
-          </div>
         </motion.div>
         <div className="py-8">
           <div>
@@ -109,6 +96,31 @@ const ProjectList = () => {
             <div className=" w-full container mx-auto  max-w-xs">
               <img src={sideproject} alt="sideproject" className="" />
             </div>
+          </div>
+          {/* <div className=" py-7 px-3 w-full max-w-[360px] flex items-center "></div> */}
+          <div className=" py-7 px-3 w-full flex gap-11 items-center ">
+            <a
+              href="https://github.com/RohitAmdahl?tab=repositories"
+              className="px-4 py-2 rounded-full flex items-center gap-2  
+        shadow-[-5px_-5px_10px_rgba(255,_255,_255,_0.8),_5px_5px_10px_rgba(0,_0,_0,_0.25)]
+        transition-all hover:shadow-[-1px_-1px_5px_rgba(255,_255,_255,_0.6),_1px_1px_5px_rgba(0,_0,_0,_0.3),inset_-2px_-2px_5px_rgba(255,_255,_255,_1),inset_2px_2px_4px_rgba(0,_0,_0,_0.3)] hover:text-violet-500 hover:ring hover:ring-violet-500 text-center text-zinc-800"
+            >
+              <FaGithub size={20} color="blue" />
+              <span className="font-text font-bold text-lg text-center text-zinc-800">
+                Tidligere Prosjekter - Github
+              </span>
+            </a>
+            <a
+              href="https://github.com/MaaRadha?tab=overview&from=2025-01-01&to=2025-01-27"
+              className="px-4 py-2 rounded-full flex items-center gap-2  
+                  shadow-[-5px_-5px_10px_rgba(255,_255,_255,_0.8),_5px_5px_10px_rgba(0,_0,_0,_0.25)]
+                  transition-all hover:shadow-[-1px_-1px_5px_rgba(255,_255,_255,_0.6),_1px_1px_5px_rgba(0,_0,_0,_0.3),inset_-2px_-2px_5px_rgba(255,_255,_255,_1),inset_2px_2px_4px_rgba(0,_0,_0,_0.3)] hover:text-violet-500 hover:ring hover:ring-violet-500 text-center text-zinc-800"
+            >
+              <FaGithub size={20} color="blue" />
+              <span className="font-text font-bold text-lg text-center text-zinc-800">
+                Aktive Prosjekter - Github
+              </span>
+            </a>
           </div>
         </div>
       </motion.div>
