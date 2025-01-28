@@ -64,7 +64,7 @@ const DatabaseProject = () => {
               </p>
               <div className="flex flex-wrap gap-5">
                 <a
-                  href="https://github.com/MaaRadha/FeedBackWebApi"
+                  href="https://github.com/MaaRadha/GuestBookDB"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-blue-500 hover:text-blue-700"
