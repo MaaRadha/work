@@ -1,4 +1,4 @@
-# 🚀 Rohit Kumar - Portfolio  
+# 🚀 Rohit Kumar Amdahl - Portfolio  
 
 ##  Kreativ Designer og Webutvikler  
 ### 🎨 Frontend | ⚡ Backend med .NET  
