@@ -6,11 +6,16 @@ import { BrowserRouter } from "react-router-dom";
 import "react-tooltip/dist/react-tooltip.css";
 import { Auth0Provider } from "@auth0/auth0-react";
 
+const domain = import.meta.env.VITE_AUTH0_DOMAIN;
+const clientId = import.meta.env.VITE_AUTH0_CLIENT_ID;
+console.log("Auth0 Domain:", domain);
+console.log("Auth0 Client ID:", clientId);
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Auth0Provider
-      domain="dev-rsvhpombfm1nlujg.us.auth0.com"
-      clientId="oUKvbvMoUBTthYVRUnMwUPhTGmKuouZr"
+      domain={domain}
+      clientId={clientId}
       authorizationParams={{
         redirect_uri: window.location.origin,
       }}
