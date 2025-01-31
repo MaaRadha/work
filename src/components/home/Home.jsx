@@ -5,12 +5,22 @@ import HomeSection2 from "./HomeSection";
 import { RiLinkedinFill } from "react-icons/ri";
 import collage from "../../assets/colmin.jpg";
 import figma from "../../assets/icons/figma.png";
+import { useAuth0 } from "@auth0/auth0-react";
 const Home = () => {
+  const { user } = useAuth0();
   return (
     <>
       <section>
         <div className="text-gray-600">
           <div className="max-w-7xl p-3">
+            <div className="text-center font-serif text-2xl font-bold text-gray-600 p-3">
+              {user && (
+                <p>
+                  Hei og velkommen til min portfolio -{" "}
+                  <span className="text-violet-700">{user.name}</span>
+                </p>
+              )}
+            </div>
             <div className="flex items-end gap-2 px-3">
               <h1 className="text-3xl py-7 font-bold text-zinc-800">
                 Rohit Kumar Amdahl
