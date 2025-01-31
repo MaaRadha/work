@@ -80,7 +80,7 @@ const Navbar = () => {
             />
           )}
 
-          <Tooltip id="my-tooltip" place="top" content="I'm Rohit!" />
+          <Tooltip id="my-tooltip" place="top" content="Profile Pic!" />
         </div>
       </nav>
     </header>
