@@ -1,8 +1,28 @@
-# React + Vite
+# 🚀 Rohit Kumar - Portfolio  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Kreativ Designer og Webutvikler  
+### 🎨 Frontend | ⚡ Backend med .NET  
 
-Currently, two official plugins are available:
+Dette er mitt personlige porteføljeprosjekt, som viser mine ferdigheter innen både frontend- og backend-utvikling.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📌 Om prosjektet  
+Jeg er en kreativ designer og frontend-utvikler med erfaring innen moderne frontend-teknologier. Jeg har også gjennomført et backend-kurs med spesialisering i **.NET**, som har styrket mine ferdigheter innen fullstack-utvikling.  
+
+**Teknologier brukt i dette prosjektet:**  
+- 🎨 **Frontend:** React (Vite), Tailwind CSS, Auth0  
+- 🛠 **Backend:** .NET, C#, Entity Framework  
+- ☁️ **Hosting:** Netlify (frontend)
+
+---
+
+## 🛠️ Installasjon og kjøring  
+
+### 🔹 Frontend  
+1. **Klon prosjektet:**  
+   ```sh
+   git clone https://github.com/ditt-repo/portfolio-frontend.git
+   cd portfolio-frontend
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d79ec4a9-6fba-4f2c-8c8b-7acce8d6a11d/deploy-status)](https://app.netlify.com/sites/rohit-e9f109/deploys)
