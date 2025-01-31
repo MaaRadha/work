@@ -59,7 +59,7 @@ const Navbar = () => {
           )}
         </ul>
         <div id="not-clickable" className="flex items-center space-x-4">
-          <div>{user && <p>{user.name}</p>}</div>
+          <div className="hidden md:block">{user && <p>{user.name}</p>}</div>
           {isAuthenticated ? (
             <NavLink to="/">
               <img
