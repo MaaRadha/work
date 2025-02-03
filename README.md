@@ -12,7 +12,7 @@ Jeg er en kreativ designer og frontend-utvikler med erfaring innen moderne front
 
 **Teknologier brukt i dette prosjektet:**  
 - 🎨 **Frontend:** React (Vite), Tailwind CSS, Auth0  
-- 🛠 **Backend:** .NET, C#, Entity Framework  
+- 🛠 Will be added soon  --  **Backend:** .NET, C#, Entity Framework  
 - ☁️ **Hosting:** Netlify (frontend)
 
 ---
