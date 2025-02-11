@@ -1,11 +1,13 @@
 import { FiSend } from "react-icons/fi";
 import arrow from "../../assets/icons/arrow.png";
+import myCV from "../../assets/cv.pdf";
 import { motion } from "motion/react";
 import HomeSection2 from "./HomeSection";
 import { RiLinkedinFill } from "react-icons/ri";
 import collage from "../../assets/colmin.jpg";
 import figma from "../../assets/icons/figma.png";
 import { useAuth0 } from "@auth0/auth0-react";
+import { div } from "motion/react-client";
 const Home = () => {
   const { user } = useAuth0();
   return (
@@ -13,11 +15,30 @@ const Home = () => {
       <section>
         <div className="text-gray-600">
           <div className="max-w-7xl p-3">
-            <div className="text-center font-serif text-2xl font-bold text-gray-600 p-3">
-              {user && (
-                <p>
-                  Hei og velkommen til min portfolio -{" "}
-                  <span className="text-violet-700">{user.name}</span>
+            <div className=" font-serif text-xl font-bold text-gray-600 p-3">
+              {user ? (
+                <>
+                  <p>
+                    Hei og velkommen til min portfolio -{" "}
+                    <span className="bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-blue-500 to-purple-500 text-transparent bg-clip-text">
+                      {user.name}
+                    </span>
+                  </p>
+                  <a
+                    href={myCV}
+                    download="My_CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-800 hover:underline"
+                  >
+                    Last ned min CV
+                  </a>
+                </>
+              ) : (
+                // If user is not logged in
+                <p className="py-7 text-sm">
+                  Ønsker du å vite mer om meg? Logg inn for å få tilgang til
+                  CV-en min.
                 </p>
               )}
             </div>
