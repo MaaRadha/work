@@ -1,8 +1,8 @@
 import { data } from "../../helper/projectsList";
 import { motion } from "motion/react";
 import { FaGithub } from "react-icons/fa6";
-// import sql from "../../assets/projectPics/sqlDatabase.png";
-import sideproject from "../../assets/projectPics/sideProject.png";
+import sideproject from "../../assets/projectPics/sideProject.jpg";
+
 const ProjectList = () => {
   return (
     <>
@@ -78,27 +78,36 @@ const ProjectList = () => {
               Sideprosjektet er i utviklingsfasen
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center lg:grid-cols-2 gap-6 font-text text-gray-600 py-7 px-3  border-4 m-4 p-4 rounded-2xl shadow-xl">
-            <div className="max-w-2xl flex justify-center items-center">
-              <p className="py-7  font-text font-medium text-lg px-3">
-                Vi jobber med et sideprosjekt som har som mål å gjøre
-                jobbsøknadsprosessen enklere og mer oversiktlig for brukerne.
-                Prosjektet er i utviklingsfasen, og vi benytter moderne
-                teknologier som React, TailwindCSS og JavaScript for frontend,
-                samt C# og ASP.NET Core Web API for backend. Tjenestene kjøres
-                på Azure for en skalerbar og sikker løsning. Planlegging og
-                design gjennomføres i Figma og Notion, og kodebasen
-                administreres privat på GitHub. Vi legger stor innsats i
-                prosjektet og samarbeider tett for å levere en funksjonell og
-                brukervennlig applikasjon.
-              </p>
-            </div>
-            <div className=" w-full container mx-auto  max-w-xs">
-              <img src={sideproject} alt="sideproject" className="" />
-            </div>
+          <div className="flex justify-center py-6">
+            <img
+              className="w-full max-w-[960px] rounded-lg shadow-lg transition-transform transform hover:scale-105"
+              src={sideproject}
+              alt="side project picture"
+            />
           </div>
-          {/* <div className=" py-7 px-3 w-full max-w-[360px] flex items-center "></div> */}
-          <div className=" py-7 px-3 w-full flex gap-11 items-center ">
+          <div className="items-center gap-6 font-text text-gray-600 py-7 px-3 border-4 m-4 p-4 rounded-2xl shadow-xl">
+            <p className="py-7 font-text font-medium text-lg px-3">
+              Vi jobber med et sideprosjekt som har som mål å gjøre
+              jobbsøknadsprosessen enklere og mer oversiktlig for brukerne.
+              Prosjektet er i utviklingsfasen, og vi benytter moderne
+              teknologier som React, TailwindCSS og JavaScript for frontend,
+              samt C# og ASP.NET Core Web API for backend. Tjenestene kjøres på
+              Azure for en skalerbar og sikker løsning. Planlegging og design
+              gjennomføres i Figma og Notion, og kodebasen administreres privat
+              på GitHub. Vi legger stor innsats i prosjektet og samarbeider tett
+              for å levere en funksjonell og brukervennlig applikasjon.
+              <a
+                href="https://github.com/MaaRadha/Applicationreacords"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:text-blue-700 underline "
+              >
+                Api er ikke Privat Besøk - GitHub-side
+              </a>
+              .
+            </p>
+          </div>
+          <div className="py-7 px-3 w-full flex gap-11 items-center">
             <a
               href="https://github.com/RohitAmdahl?tab=repositories"
               className="px-4 py-2 rounded-full flex items-center gap-2  

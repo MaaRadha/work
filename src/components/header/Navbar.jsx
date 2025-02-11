@@ -15,11 +15,6 @@ const Navbar = () => {
   const navItems = [
     { id: 1, text: "Hjem", path: "/" },
     { id: 2, text: "Prosjekter", path: "/work" },
-    // {
-    //   ...(isAuthenticated
-    //     ? { id: 3, text: "Logg ut", path: "/logout" }
-    //     : { id: 3, text: "Logg inn", path: "/login" }),
-    // },
   ];
 
   return (

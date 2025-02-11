@@ -13,7 +13,7 @@ function IconsList() {
   };
 
   return (
-    <div className="w-full container max-w-7xl mx-auto items-center p-6 md:p-8 lg:p-10">
+    <div className="w-full container max-w-2xl mx-auto items-center p-6 md:p-8 lg:p-10">
       <ul className="flex flex-wrap lg:justify-center items-center gap-4">
         {logoIcons.map((item, index) => (
           <motion.li

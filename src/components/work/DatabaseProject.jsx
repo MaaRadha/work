@@ -1,9 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import { FaGithub } from "react-icons/fa6";
-import sql from "../../assets/projectPics/sqlDatabase.png";
-import guest from "../../assets/projectPics/guestbook.jpg";
-import { div } from "motion/react-client";
+import { backendProjects } from "../../helper/backend";
 
 const DatabaseProject = () => {
   return (
@@ -25,55 +23,35 @@ const DatabaseProject = () => {
         }}
         className=" py-10 px-3 text-gray-600 font-text"
       >
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl px-3 py-2  ">
-          <div className="rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
-            <img
-              src={sql}
-              alt="Project Image"
-              className="w-full h-58 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">EntityDatabase</h3>
-              <p className="text-sm text-gray-600 mb-4">
-                A SQL database project for managing bands.
-              </p>
-              <div className="flex flex-wrap gap-5">
-                <a
-                  href="https://github.com/RohitAmdahl/EntityDatabase"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block text-blue-500 hover:text-blue-700"
-                >
-                  Les mer →
-                </a>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl px-3 py-2">
+          {backendProjects.map((project) => (
+            <div
+              key={project.id}
+              className="rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
+            >
+              <img
+                src={project.imgUrl}
+                alt="Project Image"
+                className="w-full h-58 object-cover"
+              />
+              <div className="p-4">
+                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                <p className="text-sm text-gray-600 mb-4">
+                  {project.description}
+                </p>
+                <div className="flex flex-wrap gap-5">
+                  <a
+                    href={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block text-blue-500 hover:text-blue-700"
+                  >
+                    Les mer →
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
-            <img
-              src={guest}
-              alt="Project Image"
-              className="w-full h-58 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">
-                Asp.Net core web api <span> </span>
-              </h3>
-              <p className="text-sm text-gray-600 mb-4">
-                Feedback API - Digital Guestbook.
-              </p>
-              <div className="flex flex-wrap gap-5">
-                <a
-                  href="https://github.com/MaaRadha/GuestBookDB"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block text-blue-500 hover:text-blue-700"
-                >
-                  Les mer →
-                </a>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </motion.div>
     </>

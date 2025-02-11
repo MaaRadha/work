@@ -2,7 +2,7 @@ import tegn from "../assets/projectPics/tegning.png";
 import barnehage from "../assets/projectPics/barnehage.png";
 import holiday from "../assets/projectPics/holiday.png";
 import rainyday from "../assets/projectPics/rainyday.jpg";
-
+import maps from "../assets/projectPics/mapsproject.png";
 export const data = [
   {
     id: 1,
@@ -39,16 +39,12 @@ export const data = [
     githubLink: "https://github.com/RohitAmdahl/barne-hage",
   },
 
-  //   {
-  //     id: 4,
-  //     title: "rainyday",
-  //     description:
-  //       "I gathered design inspiration from pictures, created an inspiration board, and developed personas. I installed Hotjar for insights, designed layouts and wireframes, progressing from low to high fidelity and prototypes.",
-
-  //     imgUrl: rainy,
-  //     tech: ["HTML", "CSS", "JavaScript", "Figma", "Netlify"],
-  //     liveDemo: "https://my-frist-website-rainyday.netlify.app",
-  //     githubLink:
-  //       "https://github.com/RohitAmdahl/cross-course-project-RohitAmdahl",
-  //   },
+  {
+    id: 5,
+    title: "Mapbox, react, Auth0",
+    description: "",
+    imgUrl: maps,
+    liveDemo: "https://maps-e329e2.netlify.app/",
+    githubLink: "https://github.com/MaaRadha/my-maps-project",
+  },
 ];
