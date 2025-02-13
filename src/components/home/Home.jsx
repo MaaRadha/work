@@ -1,6 +1,6 @@
 import { FiSend } from "react-icons/fi";
 import arrow from "../../assets/icons/arrow.png";
-import myCV from "../../assets/cv/mycv.pdf";
+import myCV from "../../assets/cv/cv.pdf";
 import { motion } from "motion/react";
 import HomeSection2 from "./HomeSection";
 import { RiLinkedinFill } from "react-icons/ri";
